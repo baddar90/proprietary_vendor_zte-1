@@ -324,6 +324,30 @@ PRODUCT_COPY_FILES += \
     vendor/zte/axon7/proprietary/vendor/lib64/libfpnav.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libfpnav.so \
     vendor/zte/axon7/proprietary/vendor/lib64/libfpservice.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libfpservice.so
 
+
+PRODUCT_COPY_FILES += \
+    vendor/zte/axon7/proprietary/bin/perfservice:system/bin/perfservice \
+    vendor/zte/axon7/proprietary/etc/init/perfservice.rc:system/etc/init/perfservice.rc \
+    vendor/zte/axon7/proprietary/etc/perf/whitelistedapps.xml:system/etc/perf/whitelistedapps.xml \
+    vendor/zte/axon7/proprietary/lib/libqti-at.so:system/lib/libqti-at.so \
+    vendor/zte/axon7/proprietary/lib/libqti-iopd-client_system.so:system/lib/libqti-iopd-client_system.so \
+    vendor/zte/axon7/proprietary/lib/libqti-perfd-client_system.so:system/lib/libqti-perfd-client_system.so \
+    vendor/zte/axon7/proprietary/lib/libqti-util_system.so:system/lib/libqti-util_system.so \
+    vendor/zte/axon7/proprietary/lib/libqti_performance.so:system/lib/libqti_performance.so \
+    vendor/zte/axon7/proprietary/lib/vendor.qti.hardware.iop@1.0.so:system/lib/vendor.qti.hardware.iop@1.0.so \
+    vendor/zte/axon7/proprietary/lib/vendor.qti.hardware.iop@2.0.so:system/lib/vendor.qti.hardware.iop@2.0.so \
+    vendor/zte/axon7/proprietary/lib64/libqti-at.so:system/lib64/libqti-at.so \
+    vendor/zte/axon7/proprietary/lib64/libqti-iopd-client_system.so:system/lib64/libqti-iopd-client_system.so \
+    vendor/zte/axon7/proprietary/lib64/libqti-perfd-client_system.so:system/lib64/libqti-perfd-client_system.so \
+    vendor/zte/axon7/proprietary/lib64/libqti-util_system.so:system/lib64/libqti-util_system.so \
+    vendor/zte/axon7/proprietary/lib64/libqti_performance.so:system/lib64/libqti_performance.so \
+    vendor/zte/axon7/proprietary/lib64/vendor.qti.hardware.iop@1.0.so:system/lib64/vendor.qti.hardware.iop@1.0.so \
+    vendor/zte/axon7/proprietary/lib64/vendor.qti.hardware.iop@2.0.so:system/lib64/vendor.qti.hardware.iop@2.0.so    
+
+PRODUCT_PACKAGES += \
+    QPerformance \
+    UxPerformance
+
 ifeq ($(QCPATH),)
 PRODUCT_COPY_FILES += \
     vendor/zte/axon7/proprietary/bin/dpmd:system/bin/dpmd \
