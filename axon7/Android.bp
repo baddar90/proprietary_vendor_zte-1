@@ -179,6 +179,28 @@ android_app_import {
 }
 
 android_app_import {
+	name: "imssettings",
+	owner: "zte",
+	apk: "proprietary/app/imssettings/imssettings.apk",
+	certificate: "platform",
+	dex_preopt: {
+		enabled: false,
+	},
+	privileged: true,
+}
+
+android_app_import {
+	name: "uceShimService",
+	owner: "zte",
+	apk: "proprietary/app/uceShimService/uceShimService.apk",
+	certificate: "platform",
+	dex_preopt: {
+		enabled: false,
+	},
+	privileged: true,
+}
+
+android_app_import {
 	name: "qcrilmsgtunnel",
 	owner: "zte",
 	apk: "proprietary/priv-app/qcrilmsgtunnel/qcrilmsgtunnel.apk",

@@ -406,7 +406,6 @@ PRODUCT_COPY_FILES += \
     vendor/zte/axon7/proprietary/lib/libwfduibcsinkinterface.so:$(TARGET_COPY_OUT_SYSTEM)/lib/libwfduibcsinkinterface.so \
     vendor/zte/axon7/proprietary/lib/libwfduibcsrc.so:$(TARGET_COPY_OUT_SYSTEM)/lib/libwfduibcsrc.so \
     vendor/zte/axon7/proprietary/lib/libwfduibcsrcinterface.so:$(TARGET_COPY_OUT_SYSTEM)/lib/libwfduibcsrcinterface.so \
-    vendor/zte/axon7/proprietary/lib/vendor.qti.imsrtpservice@1.0.so:$(TARGET_COPY_OUT_SYSTEM)/lib/vendor.qti.imsrtpservice@1.0.so \
     vendor/zte/axon7/proprietary/lib64/com.qualcomm.qti.ant@1.0.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/com.qualcomm.qti.ant@1.0.so \
     vendor/zte/axon7/proprietary/lib64/com.qualcomm.qti.dpm.api@1.0.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/com.qualcomm.qti.dpm.api@1.0.so \
     vendor/zte/axon7/proprietary/lib64/com.qualcomm.qti.imscmservice@1.0.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/com.qualcomm.qti.imscmservice@1.0.so \
@@ -510,7 +509,6 @@ PRODUCT_COPY_FILES += \
     vendor/zte/axon7/proprietary/vendor/etc/sensors/hals.conf:$(TARGET_COPY_OUT_VENDOR)/etc/sensors/hals.conf \
     vendor/zte/axon7/proprietary/vendor/etc/xtra_root_cert.pem:$(TARGET_COPY_OUT_VENDOR)/etc/xtra_root_cert.pem \
     vendor/zte/axon7/proprietary/vendor/framework/qti-vzw-ims-internal.jar:$(TARGET_COPY_OUT_VENDOR)/framework/qti-vzw-ims-internal.jar \
-    vendor/zte/axon7/proprietary/vendor/lib/com.qualcomm.qti.imscmservice@1.0_vendor.so:$(TARGET_COPY_OUT_VENDOR)/lib/com.qualcomm.qti.imscmservice@1.0_vendor.so \
     vendor/zte/axon7/proprietary/vendor/lib/com.qualcomm.qti.wifidisplayhal@1.0-halimpl.so:$(TARGET_COPY_OUT_VENDOR)/lib/com.qualcomm.qti.wifidisplayhal@1.0-halimpl.so \
     vendor/zte/axon7/proprietary/vendor/lib/egl/eglSubDriverAndroid.so:$(TARGET_COPY_OUT_VENDOR)/lib/egl/eglSubDriverAndroid.so \
     vendor/zte/axon7/proprietary/vendor/lib/egl/libEGL_adreno.so:$(TARGET_COPY_OUT_VENDOR)/lib/egl/libEGL_adreno.so \
@@ -524,7 +522,6 @@ PRODUCT_COPY_FILES += \
     vendor/zte/axon7/proprietary/vendor/lib/hw/keystore.msm8996.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/keystore.msm8996.so \
     vendor/zte/axon7/proprietary/vendor/lib/hw/sound_trigger.primary.msm8996.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/sound_trigger.primary.msm8996.so \
     vendor/zte/axon7/proprietary/vendor/lib/hw/vulkan.msm8996.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/vulkan.msm8996.so \
-    vendor/zte/axon7/proprietary/vendor/lib/lib-imscmservice.so:$(TARGET_COPY_OUT_VENDOR)/lib/lib-imscmservice.so \
     vendor/zte/axon7/proprietary/vendor/lib/lib-imsrcs-v2.so:$(TARGET_COPY_OUT_VENDOR)/lib/lib-imsrcs-v2.so \
     vendor/zte/axon7/proprietary/vendor/lib/lib-siputility.so:$(TARGET_COPY_OUT_VENDOR)/lib/lib-siputility.so \
     vendor/zte/axon7/proprietary/vendor/lib/lib-uceservice.so:$(TARGET_COPY_OUT_VENDOR)/lib/lib-uceservice.so \
@@ -628,18 +625,14 @@ PRODUCT_COPY_FILES += \
     vendor/zte/axon7/proprietary/vendor/lib/soundfx/libqcreverb.so:$(TARGET_COPY_OUT_VENDOR)/lib/soundfx/libqcreverb.so \
     vendor/zte/axon7/proprietary/vendor/lib/soundfx/libqcvirt.so:$(TARGET_COPY_OUT_VENDOR)/lib/soundfx/libqcvirt.so \
     vendor/zte/axon7/proprietary/vendor/lib/vendor.qti.hardware.radio.am@1.0_vendor.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.qti.hardware.radio.am@1.0_vendor.so \
-    vendor/zte/axon7/proprietary/vendor/lib/vendor.qti.hardware.radio.ims@1.0_vendor.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.qti.hardware.radio.ims@1.0_vendor.so \
     vendor/zte/axon7/proprietary/vendor/lib/vendor.qti.hardware.radio.lpa@1.0_vendor.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.qti.hardware.radio.lpa@1.0_vendor.so \
     vendor/zte/axon7/proprietary/vendor/lib/vendor.qti.hardware.radio.qcrilhook@1.0_vendor.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.qti.hardware.radio.qcrilhook@1.0_vendor.so \
     vendor/zte/axon7/proprietary/vendor/lib/vendor.qti.hardware.radio.qtiradio@1.0_vendor.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.qti.hardware.radio.qtiradio@1.0_vendor.so \
     vendor/zte/axon7/proprietary/vendor/lib/vendor.qti.hardware.radio.uim@1.0_vendor.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.qti.hardware.radio.uim@1.0_vendor.so \
     vendor/zte/axon7/proprietary/vendor/lib/vendor.qti.hardware.radio.uim_remote_client@1.0_vendor.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.qti.hardware.radio.uim_remote_client@1.0_vendor.so \
     vendor/zte/axon7/proprietary/vendor/lib/vendor.qti.hardware.radio.uim_remote_server@1.0_vendor.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.qti.hardware.radio.uim_remote_server@1.0_vendor.so \
-    vendor/zte/axon7/proprietary/vendor/lib/vendor.qti.imsrtpservice@1.0-service-Impl.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.qti.imsrtpservice@1.0-service-Impl.so \
-    vendor/zte/axon7/proprietary/vendor/lib/vendor.qti.imsrtpservice@1.0_vendor.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.qti.imsrtpservice@1.0_vendor.so \
     vendor/zte/axon7/proprietary/vendor/lib64/com.qualcomm.qti.ant@1.0_vendor.so:$(TARGET_COPY_OUT_VENDOR)/lib64/com.qualcomm.qti.ant@1.0_vendor.so \
     vendor/zte/axon7/proprietary/vendor/lib64/com.qualcomm.qti.dpm.api@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/com.qualcomm.qti.dpm.api@1.0.so \
-    vendor/zte/axon7/proprietary/vendor/lib64/com.qualcomm.qti.imscmservice@1.0_vendor.so:$(TARGET_COPY_OUT_VENDOR)/lib64/com.qualcomm.qti.imscmservice@1.0_vendor.so \
     vendor/zte/axon7/proprietary/vendor/lib64/com.quicinc.cne.api@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/com.quicinc.cne.api@1.0.so \
     vendor/zte/axon7/proprietary/vendor/lib64/com.quicinc.cne.api@1.1.so:$(TARGET_COPY_OUT_VENDOR)/lib64/com.quicinc.cne.api@1.1.so \
     vendor/zte/axon7/proprietary/vendor/lib64/com.quicinc.cne.constants@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/com.quicinc.cne.constants@1.0.so \
@@ -648,6 +641,9 @@ PRODUCT_COPY_FILES += \
     vendor/zte/axon7/proprietary/vendor/lib64/com.quicinc.cne.server@2.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/com.quicinc.cne.server@2.0.so \
     vendor/zte/axon7/proprietary/vendor/lib64/com.quicinc.cne.server@2.1.so:$(TARGET_COPY_OUT_VENDOR)/lib64/com.quicinc.cne.server@2.1.so \
     vendor/zte/axon7/proprietary/vendor/lib64/com.quicinc.cne.server@2.2.so:$(TARGET_COPY_OUT_VENDOR)/lib64/com.quicinc.cne.server@2.2.so \
+    vendor/zte/axon7/proprietary/vendor/lib64/com.qualcomm.qti.imscmservice@2.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/com.qualcomm.qti.imscmservice@2.0.so \
+    vendor/zte/axon7/proprietary/vendor/lib64/com.qualcomm.qti.imscmservice@2.1.so:$(TARGET_COPY_OUT_VENDOR)/lib64/com.qualcomm.qti.imscmservice@2.1.so \
+    vendor/zte/axon7/proprietary/vendor/lib64/com.qualcomm.qti.uceservice@2.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/com.qualcomm.qti.uceservice@2.0.so \
     vendor/zte/axon7/proprietary/vendor/lib64/egl/eglSubDriverAndroid.so:$(TARGET_COPY_OUT_VENDOR)/lib64/egl/eglSubDriverAndroid.so \
     vendor/zte/axon7/proprietary/vendor/lib64/egl/libEGL_adreno.so:$(TARGET_COPY_OUT_VENDOR)/lib64/egl/libEGL_adreno.so \
     vendor/zte/axon7/proprietary/vendor/lib64/egl/libGLESv1_CM_adreno.so:$(TARGET_COPY_OUT_VENDOR)/lib64/egl/libGLESv1_CM_adreno.so \
@@ -670,6 +666,7 @@ PRODUCT_COPY_FILES += \
     vendor/zte/axon7/proprietary/vendor/lib64/lib-imsdpl.so:$(TARGET_COPY_OUT_VENDOR)/lib64/lib-imsdpl.so \
     vendor/zte/axon7/proprietary/vendor/lib64/lib-imsqimf.so:$(TARGET_COPY_OUT_VENDOR)/lib64/lib-imsqimf.so \
     vendor/zte/axon7/proprietary/vendor/lib64/lib-imsrcs-v2.so:$(TARGET_COPY_OUT_VENDOR)/lib64/lib-imsrcs-v2.so \
+    vendor/zte/axon7/proprietary/vendor/lib64/lib-imsrcsbaseimpl.so:$(TARGET_COPY_OUT_VENDOR)/lib64/lib-imsrcsbaseimpl.so \
     vendor/zte/axon7/proprietary/vendor/lib64/lib-imsxml.so:$(TARGET_COPY_OUT_VENDOR)/lib64/lib-imsxml.so \
     vendor/zte/axon7/proprietary/vendor/lib64/lib-rtpcommon.so:$(TARGET_COPY_OUT_VENDOR)/lib64/lib-rtpcommon.so \
     vendor/zte/axon7/proprietary/vendor/lib64/lib-rtpcore.so:$(TARGET_COPY_OUT_VENDOR)/lib64/lib-rtpcore.so \
@@ -802,7 +799,11 @@ PRODUCT_COPY_FILES += \
     vendor/zte/axon7/proprietary/vendor/lib64/vendor.qti.hardware.fm@1.0_vendor.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.qti.hardware.fm@1.0_vendor.so \
     vendor/zte/axon7/proprietary/vendor/lib64/vendor.qti.hardware.radio.am@1.0_vendor.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.qti.hardware.radio.am@1.0_vendor.so \
     vendor/zte/axon7/proprietary/vendor/lib64/vendor.qti.hardware.radio.atcmdfwd@1.0_vendor.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.qti.hardware.radio.atcmdfwd@1.0_vendor.so \
-    vendor/zte/axon7/proprietary/vendor/lib64/vendor.qti.hardware.radio.ims@1.0_vendor.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.qti.hardware.radio.ims@1.0_vendor.so \
+    vendor/zte/axon7/proprietary/vendor/lib64/vendor.qti.hardware.radio.ims@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.qti.hardware.radio.ims@1.0.so \
+    vendor/zte/axon7/proprietary/vendor/lib64/vendor.qti.hardware.radio.ims@1.1.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.qti.hardware.radio.ims@1.1.so \
+    vendor/zte/axon7/proprietary/vendor/lib64/vendor.qti.hardware.radio.ims@1.2.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.qti.hardware.radio.ims@1.2.so \
+    vendor/zte/axon7/proprietary/vendor/lib64/vendor.qti.hardware.radio.ims@1.3.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.qti.hardware.radio.ims@1.3.so \
+    vendor/zte/axon7/proprietary/vendor/lib64/vendor.qti.hardware.radio.ims@1.4.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.qti.hardware.radio.ims@1.4.so \
     vendor/zte/axon7/proprietary/vendor/lib64/vendor.qti.hardware.radio.lpa@1.0_vendor.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.qti.hardware.radio.lpa@1.0_vendor.so \
     vendor/zte/axon7/proprietary/vendor/lib64/vendor.qti.hardware.radio.qcrilhook@1.0_vendor.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.qti.hardware.radio.qcrilhook@1.0_vendor.so \
     vendor/zte/axon7/proprietary/vendor/lib64/vendor.qti.hardware.radio.qtiradio@1.0_vendor.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.qti.hardware.radio.qtiradio@1.0_vendor.so \
@@ -811,7 +812,7 @@ PRODUCT_COPY_FILES += \
     vendor/zte/axon7/proprietary/vendor/lib64/vendor.qti.hardware.radio.uim_remote_server@1.0_vendor.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.qti.hardware.radio.uim_remote_server@1.0_vendor.so \
     vendor/zte/axon7/proprietary/vendor/lib64/vendor.qti.ims.rcsconfig@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.qti.ims.rcsconfig@1.0.so \
     vendor/zte/axon7/proprietary/vendor/lib64/vendor.qti.imsrtpservice@1.0-service-Impl.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.qti.imsrtpservice@1.0-service-Impl.so \
-    vendor/zte/axon7/proprietary/vendor/lib64/vendor.qti.imsrtpservice@1.0_vendor.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.qti.imsrtpservice@1.0_vendor.so \
+    vendor/zte/axon7/proprietary/vendor/lib64/vendor.qti.ims.callinfo@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.qti.ims.callinfo@1.0.so \
     vendor/zte/axon7/proprietary/vendor/lib64/vendor.qti.latency@2.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.qti.latency@2.0.so \
     vendor/zte/axon7/proprietary/vendor/radio/qcril_database/qcril.db:$(TARGET_COPY_OUT_VENDOR)/radio/qcril_database/qcril.db
 
@@ -828,6 +829,8 @@ PRODUCT_PACKAGES += \
     dpmserviceapp \
     ims \
     qcrilmsgtunnel \
+    imssettings \
+    uceShimService \
     PowerOffAlarm \
     TimeService \
     QtiTelephonyServicelibrary \
