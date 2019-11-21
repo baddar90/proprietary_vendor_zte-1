@@ -223,12 +223,6 @@ dex_import {
 }
 
 dex_import {
-	name: "qti-telephony-common",
-	owner: "zte",
-	jars: ["proprietary/framework/qti-telephony-common.jar"],
-}
-
-dex_import {
 	name: "uimlpalibrary",
 	owner: "zte",
 	jars: ["proprietary/framework/uimlpalibrary.jar"],
